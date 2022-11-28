@@ -55,6 +55,12 @@ button:hover {
     border-radius: 20px;
 }
 
+a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 /* For Smartphone Screens */
 @media (max-width: 576px) {
     .content-container {
@@ -67,6 +73,10 @@ button:hover {
         border-radius: 20px;
         padding: 40px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    img {
+        height: 40px;
     }
 }
 
