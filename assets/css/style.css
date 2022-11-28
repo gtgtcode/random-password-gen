@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins';
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-attachment: fixed;
+}
+
 .content-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: antiquewhite;
+    background-color: rgba(255,255,255,0.5);
     width: 300px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 button, p, h1 {
@@ -28,4 +40,17 @@ p {
 
 button {
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px gray;
+    padding: 20px;
+    border-radius: 20px;
 }
