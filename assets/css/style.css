@@ -7,8 +7,25 @@
     width: 300px;
 }
 
-button, input, h1 {
+button, p, h1 {
     text-align: center;
     display: block;
     margin: auto;
+}
+
+h1, p {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+p {
+    padding: 20px;
+    background-color: aliceblue;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+button {
+    margin-bottom: 20px;
 }
