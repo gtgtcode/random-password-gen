@@ -5,32 +5,10 @@
     transform: translate(-50%, -50%);
     background-color: antiquewhite;
     width: 300px;
-    height: 300px;
-    border-radius: 20px;
 }
 
 button, input, h1 {
     text-align: center;
-    
     display: block;
     margin: auto;
-}
-
-h1, input {
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
-
-button {
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-input {
-    padding:10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 20px;
-    border: 1px solid black;
 }
