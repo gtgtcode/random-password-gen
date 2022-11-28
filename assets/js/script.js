@@ -11,12 +11,23 @@ function generatePassword() {
     //Declaring Variables
 
     //This will be the output string.
-    let output = '';
+    let output = "";
     //This is the character set used.
     let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
     //This is the length of the password. (Between 8-12).
-    var length = Math.ceil(8 + (Math.random() * 4));
-    console.log(length);
+    var pwLength = Math.ceil(7 + (Math.random() * 5));
+
+    for (var i = 0; i < pwLength.length; i++) {
+        //Random Charset Character
+        var ranCharset = Math.floor(Math.random() * charset.length); 
+        output = output + ranCharset;
+        
+    }
+    
+    console.log(pwLength);
+    console.log(ranCharset);
+    console.log(output);
+    
 
 }
 
